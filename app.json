@@ -1,0 +1,24 @@
+{
+  "id": "297d3733-0487-4145-9eeb-599bf19e3ad6",
+  "name": "GEO",
+  "publisher": "SOL",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "GEO Position",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "showMyCode": true,
+  "runtime": "7.0",
+  "idRanges": [{
+    "from": 50000,
+    "to": 60000
+  }],
+  "target": "OnPrem" 
+}

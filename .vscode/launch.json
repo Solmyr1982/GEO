@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GEO Launch",
+            "type": "al",
+            "request": "launch",    
+            "environmentType": "OnPrem",        
+            "server": "http://localhost",
+            "serverInstance": "VTM180",
+            "authentication": "UserPassword",
+            "startupObjectId": 50002,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+            //"schemaUpdateMode": "Recreate"
+        }
+    ]
+}

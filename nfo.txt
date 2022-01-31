@@ -1,0 +1,8 @@
+Geodata is taken from here: http://download.geonames.org/export/dump/
+cities1000
+
+To have SQL dotnet var compiled, following added to the Al: Assembly Probing Paths:
+c:/Windows/assembly/
+
+to change smth in the app use powershell scrit: reinstallGeo
+if it complains about table changes, do this: Sync-NAVApp -ServerInstance vtm180 -Name GEO -Mode ForceSync -Force
